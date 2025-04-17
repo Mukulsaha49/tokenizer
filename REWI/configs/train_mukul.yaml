@@ -1,0 +1,86 @@
+arch_de: lstm                   # ✅ Use custom decoder from lstm.py
+arch_en: blcnn                  # ✅ Use custom encoder from conv.py
+aug: false
+cache: true
+checkpoint: null
+ctc_decoder: best_path          # ✅ Optional, if you want to support other decoding later
+device: cuda
+dir_dataset: /home/mukul36/Documents/REWI/pd_wi_hw5_word/train.json
+dir_work: /home/mukul36/Documents/REWI/pd_wi_hw5_word
+epoch: 10
+freq_eval: 5
+freq_log: 10
+freq_save: 5
+idx_cv: 0
+in_chan: 13
+lr: 0.001
+num_cls: 1261
+num_worker: 4
+seed: 42
+sensors: [AF, AR, G, M, F]
+size_batch: 64
+test: true
+
+
+
+categories:
+  - ""
+  - "A"
+  - "B"
+  - "C"
+  - "D"
+  - "E"
+  - "F"
+  - "G"
+  - "H"
+  - "I"
+  - "J"
+  - "K"
+  - "L"
+  - "M"
+  - "N"
+  - "O"
+  - "P"
+  - "Q"
+  - "R"
+  - "S"
+  - "T"
+  - "U"
+  - "V"
+  - "W"
+  - "X"
+  - "Y"
+  - "Z"
+  - "a"
+  - "b"
+  - "c"
+  - "d"
+  - "e"
+  - "f"
+  - "g"
+  - "h"
+  - "i"
+  - "j"
+  - "k"
+  - "l"
+  - "m"
+  - "n"
+  - "o"
+  - "p"
+  - "q"
+  - "r"
+  - "s"
+  - "t"
+  - "u"
+  - "v"
+  - "w"
+  - "x"
+  - "y"
+  - "z"
+  - "Ä"
+  - "Ö"
+  - "Ü"
+  - "ß"
+  - "ä"
+  - "ö"
+  - "ü"
